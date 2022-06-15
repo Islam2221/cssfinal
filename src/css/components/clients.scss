@@ -1,0 +1,64 @@
+.bg { background-color: #020a18;
+
+   .container { background-color: #020a18;
+
+      .clients {
+         background-color: #020a18;;
+         padding-bottom: 10.625rem;
+
+         @media all and(max-width: 1030px) {
+            padding-bottom: 10px;
+          }
+
+
+         .block {
+            display: flex;
+            justify-content: center;
+            gap: 80px;
+
+
+         }
+         &__info {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 215px;
+            color: #ffffff;
+
+            @media all and(max-width: 1030px) {
+               margin-top: 10px;
+               text-align: center;
+             }
+            h2 {
+               font-weight: 700;
+               font-size: 30px;
+               margin-bottom: 40px;
+            }
+            p {
+               font-weight: 600;
+               font-size: 12px;
+               margin-bottom: 20px;
+            }
+         }
+       
+         &__img {
+
+            width: 442px;
+            height: 351px;
+            margin-top: 170px;
+            @media all and(max-width: 1030px) {
+             max-width: 40%;
+          }
+            @media all and(max-width: 960px) {
+             max-width: 30%;
+          }
+            @media all and(max-width: 860px) {
+       
+             display: none;
+         }
+       }
+       }
+
+
+   }
+}

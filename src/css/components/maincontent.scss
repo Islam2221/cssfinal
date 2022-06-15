@@ -1,0 +1,146 @@
+.bg { background-color: #08101e;
+
+	.container {
+		background-color: #08101e;
+
+		.main {
+			background-color: #08101e;
+			margin-bottom: 90px;
+		
+			.block {
+				display: flex;
+				justify-content: space-between;
+				gap: 30px;
+
+
+				img {
+					@media all and(max-width: 1030px) {
+						display: none;
+					}
+					
+				}
+			}
+		
+			&__info {
+		
+				margin-top: 160px;
+				@media all and(max-width: 426px) {
+					margin-top: 47px;
+					padding: 10px 20px;
+				}
+				span {
+					font-family: 'Open Sans';
+					font-weight: 600;
+					font-size: 18px;
+					line-height: 160%;
+					text-transform: uppercase;
+					color: #3a68b8;
+					margin-bottom: 10px;
+				}
+		
+				h1 {
+					font-family: 'Open Sans';
+					font-weight: 800;
+					font-size: 55px;
+					line-height: 130%;
+					color: #ffffff;
+					margin-bottom: 40px;
+					@media all and(max-width: 1030px) {
+						font-size: 40px;
+					}
+					@media all and(max-width: 960px) {
+						font-size: 30px;
+					}
+			
+				}
+		
+				p {
+					font-size: 18px;
+					margin-bottom: 50px;
+					max-width: 560px;
+					color: #ffffff;
+					@media all and(max-width: 770px) {
+						font-size: 14px;
+					}
+					@media all and(max-width: 671px) {
+						display: none;
+					}
+				}
+		
+				&-btn {
+					display: flex;
+					flex-wrap: wrap-reverse;
+					gap: 20px;
+		
+		
+					a {
+						padding: 15px 30px;
+						background: #3a68b8;
+						border-radius: 5px;
+						font-family: 'Open Sans';
+						font-weight: 600;
+						font-size: 20px;
+						line-height: 27px;
+						color: #ffffff;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						
+						@media all and (max-width: 426px) {
+							font-size: 18px;
+							padding: 13px 30px;
+						 }
+		
+						img {
+							margin-right: 10px;
+							margin-left: 5px;
+						}
+		
+						transition: 0.5s;
+						&:hover {
+							background: #184da8;
+							transition: 0.5s;
+						}
+					}
+				}
+			}
+		
+			
+		}
+		
+		.logos {
+			&__raw {
+				display: flex;
+				justify-content: space-around;
+				flex-wrap: wrap;
+				gap: 50px;
+
+				@media all and(max-width: 1030px) {
+					gap: 0;
+				}
+
+		
+				img {
+		
+					width: 200px;
+					height: 200px;
+
+					@media all and(max-width: 1030px) {
+						width: 100px;
+						height: 100px;
+					}
+		
+				}
+				@media all and(max-width: 1030px) {
+					display: flex;
+					align-items: center;
+					flex-direction: column;
+				}
+				
+			}
+		
+		}
+
+	}
+}
+
